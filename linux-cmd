@@ -1,0 +1,13 @@
+ Esc + gg + dG   // make empty file or removing word or sentence vim
+
+https://github.com/shaikhsharik/awstutorials/blob/master/run_php_mysql_website_aws
+
+
+sudo chmod a+rwx /html
+
+sudo chmod a+rwx html   // permission folder
+ 
+:qa!
+
+
+mv example1.txt example2.txt  // rename files
