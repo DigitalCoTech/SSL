@@ -1,0 +1,24 @@
+https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-using-lets-encrypt-certificates-with-wordpress
+
+sudo su
+
+sudo apt-add-repository ppa:certbot/certbot -y
+
+
+
+sudo apt-get update -y
+
+sudo apt-get install python3-certbot-apache
+
+
+
+sudo certbot --apache -d digitalcotech.com -d www.digitalcotech.com
+
+Enter email
+
+
+Renew automatically after 3 month ssl
+
+cd /etc/letsencrypt/live
+
+sudo certbot renew --dry-run
